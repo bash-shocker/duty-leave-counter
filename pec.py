@@ -40,7 +40,7 @@ while check:
 				file = open ('attendance.csv')
 				file_read = csv.reader(file)
 				file_data = list(file_read)
-				rollno = input('\n\n\n\tEnter your roll number : ')
+				rollno = input('\n\n\n\tEnter your reg num(pec17...) : ')
 				roll_no = rollno.upper()
 				for row in range (1,41):
 
