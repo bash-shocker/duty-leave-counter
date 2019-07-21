@@ -27,7 +27,7 @@ while check:
 
 				try:
 					loading.text()
-					url = 'https://download1593.mediafire.com/tdakttjhu57g/i2rda38y5mn8262/_Attendance+S4+CSE+2019+-+Sheet1.csv'
+					url = 'http://download1593.mediafire.com/pmmp1m71tgjg/i2rda38y5mn8262/_Attendance+S4+CSE+2019+-+Sheet1.csv'
 					urllib.request.urlretrieve(url, 'attendance.csv')
 				except:
 					print('\n\n\tPlease connect to the internet!')
