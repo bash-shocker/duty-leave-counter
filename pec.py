@@ -31,7 +31,7 @@ while check:
 
 				try:
 					loading.text()
-					url = 'http://download1593.mediafire.com/pmmp1m71tgjg/i2rda38y5mn8262/_Attendance+S4+CSE+2019+-+Sheet1.csv'
+					url = 'https://srv-file2.gofile.io/download/bfNXyy/_Attendance%20S4%20CSE%202019%20-%20Sheet1%20(2)%20(1).csv'
 					urllib.request.urlretrieve(url, 'attendance.csv')
 				except:
 					print('\n\n\tPlease connect to the internet!')
