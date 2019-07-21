@@ -13,10 +13,10 @@ To run this script you need python3 installed on your computer
   step 3: Go to cmd and type 
     
     
-    git clone https://github.com/bash-shocker/python/
+    git clone https://github.com/bash-shocker/duty-leave-counter
     
     
-    cd python
+    cd duty-leave-counter
     
     
     python pec.py
@@ -30,8 +30,8 @@ To run this script you need python3 installed on your computer
     
     sudo apt install git
     
-    git clone https://github.com/bash-shocker/python/
+    git clone https://github.com/bash-shocker/duty-leave-counter
     
-    cd python
+    cd duty-leave-counter
     
     python3 pec.py
