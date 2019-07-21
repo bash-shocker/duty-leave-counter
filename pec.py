@@ -1,3 +1,4 @@
+import re
 import csv
 import sys
 import time
@@ -9,8 +10,11 @@ import urllib
 from resource import duty_leave
 from resource import loading
 from resource import manual
+from resource import welcome
+from resource import validate
 
-print('\n\n\t\t\tATTENDANCE SYSTEM\n\n')
+welcome.hola()
+print('\n\n\t\t\tDUTY LEAVE COUNTER :P\n\n')
 print('\n\n\t1.Manually check the attendance')
 print('\n\n\t2.Automatically get the data from college website')
 
@@ -40,8 +44,9 @@ while check:
 				file = open ('attendance.csv')
 				file_read = csv.reader(file)
 				file_data = list(file_read)
-				rollno = input('\n\n\n\tEnter your reg num(pec17...) : ')
+				rollno = input('\n\n\n\tEnter your roll number(pec17csxxx) : ')
 				roll_no = rollno.upper()
+				validate.check(roll_no)
 				for row in range (1,41):
 
 					for string in file_data[row]:
@@ -119,7 +124,7 @@ while check:
 	else:
 		print('\n\n\tWrong Choice!! Try again!')
 
-	again = input('\n\n\n\t\tWant to check again (y/n)? : ')
+	again = input('\n\n\n\tWant to check again (y/n)? : ')
 	if again == 'y' :
 		check = True
 	else :
