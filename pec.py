@@ -95,32 +95,31 @@ while check:
 								print('\n\n\tOops!! Your attendance is low for ')
 
 								if maths < minimum :
-									print ('\nMaths')
+									print ('\n\tMaths')
 									duty_leave.calculate(maths_atd,maths_tot)
 									print('\n\n')
 								if cao < minimum :
-									print ('CAO')
+									print ('\n\tCAO')
 									duty_leave.calculate(cao_atd,cao_tot)
 									print('\n\n')
 								if os < minimum :
-									print ('OS')
+									print ('\n\tOS')
 									duty_leave.calculate(os_atd,os_tot)
 									print('\n\n')
 								if oops < minimum :
-									print ('OOPS')
+									print ('\n\tOOPS')
 									duty_leave.calculate(oops_atd,oops_tot)
 									print('\n\n')
 								if dbms < minimum :
-									print ('DBMS')
+									print ('\n\tDBMS')
 									duty_leave.calculate(dbms_atd,dbms_tot)
 									print('\n\n')
 								if ls < minimum :
-									print ('LS')
+									print ('\n\tLS')
 									duty_leave.calculate(ls_atd,ls_tot)
 									print('\n\n')
 
-								else:
-									print('Null')
+							\
 	else:
 		print('\n\n\tWrong Choice!! Try again!')
 
