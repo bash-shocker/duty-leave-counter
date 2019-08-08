@@ -119,7 +119,7 @@ while check:
 									duty_leave.calculate(ls_atd,ls_tot)
 									print('\n\n')
 
-							\
+							
 	else:
 		print('\n\n\tWrong Choice!! Try again!')
 
